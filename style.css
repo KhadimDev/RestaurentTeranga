@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+}
+
+body {
+     margin: 0;
+     line-height: 1.4;
+     letter-spacing: 0.2;
+     font-family: "source sans Pro", sans-serif;
+}
+.header {
+    background: gray;
+    padding: 20px;
+    height: 400px;
+    color: #FFFFFF;
+    z-index: 2;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0)), url("img/Baniérre_restaurant.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%, 100%, cover;
+    background-attachment: local, fixed; 
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+
+.header-title {
+    text-align: center;
+    margin: 0;
+    font-weight: Italic;
+    text-transform: capitalize;
+    z-index: 4;
+}
+
+.header-nav {
+    overflow: hidden;
+    margin-top: 5px;
+    text-align: center;
+    z-index: 3;
+}
+
+.header-nav a {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    color: inherit;
+    text-decoration: none;
+    background-color: rgba(250, 250, 250, 0.2)
+}
+
+.header-nav a:hover {
+    background-color: rgba(250, 250, 250, 0.4)
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+ }
+
+
+.main {
+    position: relative;
+    background: lightgrey;
+    padding: 20px;
+    font-size: 16px;
+    z-index: 1;
+}  
+
+.main p {
+    text-indent: 30px;
+    text-align: left;
+    margin-bottom: 0.1rem;
+}
+
+.footer {
+    background: grey;
+    padding: 10px 20px;
+}
+
+.button{
+    color: #FFF;
+    background: #1f1388;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.2em 0.5em;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+hr {
+    clear: both;
+}
